@@ -15,8 +15,12 @@ int main()
     printf("%d\n", popcnt_func3(31));
     */
 
+    /*
     char bin[33] = {0};
     uint2bin(4294967295, bin, 32);
     printf("%s\n", bin);
+    */
+
+    
     return 0;
 }
