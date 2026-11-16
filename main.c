@@ -21,6 +21,18 @@ int main()
     printf("%s\n", bin);
     */
 
+    // printf("%d\n", count_bits_func1(23));
+    // printf("%d\n", count_bits_func2(23));
+
+    /*
+    char bin_format[33] = {0};
+    uint2bin_noprezero(23, bin_format);
+    printf("%s\n", bin_format);
+    */
+
     
+
+
+
     return 0;
 }

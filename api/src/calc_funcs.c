@@ -46,3 +46,29 @@ int popcnt_func3(int mask)
 	return ans;
 }
 
+// 计算整数 num 二进制形式的位数
+int count_bits_func1(int num)
+{
+	int res = 0;
+	while (num)
+	{
+		res++;
+		num >>= 1;
+	}
+	return res;
+}
+
+int count_bits_func2(int num)
+{
+	if (num == 0)
+	{
+		return 1;
+	}
+	return 32 - __builtin_clz(num);
+} 
+
+
+
+
+
+

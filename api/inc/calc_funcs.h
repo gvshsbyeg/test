@@ -7,6 +7,8 @@ long long binomial_coefficient(int n, int i);
 int popcnt_func1(int mask);
 int popcnt_func2(int mask);
 int popcnt_func3(int mask);
+int count_bits_func1(int num);
+int count_bits_func2(int num);
 
 
 #endif

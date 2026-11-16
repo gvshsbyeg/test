@@ -33,3 +33,16 @@ void uint2bin(unsigned int num, char* ans, int bit_len)
     }
     return;
 }
+
+void uint2bin_noprezero(unsigned int num, char* ans)
+{
+    int bits = count_bits_func2(num);
+    for (int i = bits - 1; i >= 0; i--)
+    {
+        ans[i] = (num & 1) ? '1' : '0';
+        num >>= 1;
+    }
+    return;
+}
+
+
